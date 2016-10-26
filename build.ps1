@@ -81,6 +81,7 @@ else
     $osData.ForceCmd = ''
 }
 
+# Show what we are going to use
 Write-Output $osData | ConvertTo-Json
 
 # Base Image and VirtualBox if enabled
